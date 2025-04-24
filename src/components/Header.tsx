@@ -1,7 +1,6 @@
-
 import { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
-import MercosulLogo from '/public/lovable-uploads/a255c12c-6ead-4486-bf9c-16759f36dd94.png';
+import MercosulLogo from '/lovable-uploads/a255c12c-6ead-4486-bf9c-16759f36dd94.png';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
