@@ -6,19 +6,19 @@ const AboutBonito = () => {
   
   const images = [
     {
-      url: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&fit=crop&w=800",
+      url: "/img/1.png",
       alt: "Rio cristalino em Bonito"
     },
     {
-      url: "https://images.unsplash.com/photo-1504893524553-b855bce32c67?auto=format&fit=crop&w=800",
+      url: "/img/2.png",
       alt: "Formação rochosa em Bonito"
     },
     {
-      url: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=800",
+      url: "/img/3.png",
       alt: "Vegetação nativa de Bonito"
     },
     {
-      url: "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?auto=format&fit=crop&w=800",
+      url: "/img/4.png",
       alt: "Trilha em Bonito"
     }
   ];
@@ -44,7 +44,7 @@ const AboutBonito = () => {
 
   return (
     <section id="sobre-bonito" className="section bg-white">
-      <div className="container mx-auto">
+      <div className="mx-auto">
         <h2 className="section-title animate-fade-in">Conheça o Paraíso do Ecoturismo</h2>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">

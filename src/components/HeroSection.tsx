@@ -7,15 +7,15 @@ const HeroSection = () => {
 
   const slides = [
     {
-      url: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&fit=crop&w=2000",
+      url: "/img/Apresentação Bonito_page-0002.jpg",
       alt: "Rio cristalino em Bonito, MS"
     },
     {
-      url: "https://images.unsplash.com/photo-1504893524553-b855bce32c67?auto=format&fit=crop&w=2000",
+      url: "/img/Apresentação Bonito_page-0003.jpg",
       alt: "Formação rochosa em Bonito, MS"
     },
     {
-      url: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=2000",
+      url: "/img/Apresentação Bonito_page-0004.jpg",
       alt: "Paisagem natural de Bonito, MS"
     }
   ];

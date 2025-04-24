@@ -12,35 +12,35 @@ const Tours = () => {
       id: 1,
       title: "Passeio de Bote Rio Formoso",
       description: "Adrenalina e paisagens deslumbrantes nas águas do Rio Formoso",
-      image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800",
+      image: "/img/7.png",
       highlights: ["Descidas emocionantes", "Águas cristalinas", "Contato direto com a natureza"]
     },
     {
       id: 2,
       title: "Flutuação Rio Sucuri",
       description: "Flutuação em águas cristalinas observando a vida aquática",
-      image: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=800",
+      image: "/img/8.png",
       highlights: ["Visibilidade incrível", "Diversidade de peixes", "Experiência relaxante"]
     },
     {
       id: 3,
       title: "Estância Mimosa",
       description: "Trilhas e cachoeiras em meio à vegetação nativa",
-      image: "https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=800",
+      image: "/img/9.png",
       highlights: ["8 cachoeiras deslumbrantes", "Trilhas sinalizadas", "Banho nas águas naturais"]
     },
     {
       id: 4,
       title: "Cachoeiras e Trilhas Serra da Bodoquena",
       description: "Imersão na natureza com vistas panorâmicas",
-      image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=800",
+      image: "/img/10.png",
       highlights: ["Vistas panorâmicas", "Biodiversidade rica", "Cachoeiras exclusivas"]
     },
     {
       id: 5,
       title: "Gruta do Lago Azul",
       description: "Caverna com águas azul-turquesa de beleza surreal",
-      image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=800",
+      image: "/img/11.png",
       highlights: ["Águas azul-turquesa", "Formações geológicas", "Patrimônio natural"]
     }
   ];
@@ -48,7 +48,7 @@ const Tours = () => {
   const scroll = (direction: 'left' | 'right') => {
     if (scrollContainer.current) {
       const { current } = scrollContainer;
-      const scrollAmount = current.clientWidth * 0.75;
+      const scrollAmount = current.clientWidth * 1.025;
       
       if (direction === 'left') {
         current.scrollLeft -= scrollAmount;
@@ -68,7 +68,7 @@ const Tours = () => {
 
   return (
     <section id="passeios" className="section bg-secondary">
-      <div className="container mx-auto">
+      <div className="mx-auto">
         <h2 className="section-title animate-fade-in">Passeios Exclusivos</h2>
         <p className="section-subtitle animate-fade-in">Descubra as maravilhas naturais de Bonito</p>
         

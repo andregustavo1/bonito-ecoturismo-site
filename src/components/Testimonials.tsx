@@ -33,7 +33,7 @@ const Testimonials = () => {
 
   return (
     <section className="section bg-secondary">
-      <div className="container mx-auto">
+      <div className="mx-auto">
         <h2 className="section-title animate-fade-in">O Que Dizem Nossos Viajantes</h2>
         
         <div className="max-w-3xl mx-auto mt-12 relative">

@@ -6,32 +6,32 @@ const Gallery = () => {
   
   const images = [
     {
-      url: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&fit=crop&w=800",
+      url: "/img/2.png",
       alt: "Rio cristalino em Bonito",
       width: "full" // full width on mobile, half on larger screens
     },
     {
-      url: "https://images.unsplash.com/photo-1504893524553-b855bce32c67?auto=format&fit=crop&w=800",
+      url: "/img/4.png",
       alt: "Formações rochosas em Bonito",
       width: "half"
     },
     {
-      url: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=800",
+      url: "/img/6.png",
       alt: "Flutuação em águas cristalinas",
       width: "half"
     },
     {
-      url: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=800",
+      url: "/img/8.png",
       alt: "Flora local",
       width: "half"
     },
     {
-      url: "https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=800",
+      url: "/img/10.png",
       alt: "Trilha na natureza",
       width: "half"
     },
     {
-      url: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800",
+      url: "/img/7.png",
       alt: "Cachoeira natural em Bonito",
       width: "full"
     },

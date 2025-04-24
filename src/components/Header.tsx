@@ -32,9 +32,9 @@ const Header = () => {
           : 'bg-transparent'
       )}
     >
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="lg:container mx-auto flex justify-between items-center">
         <a href="#" className="flex items-center">
-          <h1 className="text-white text-2xl font-bold">Mercosul Turismo</h1>
+          <img src="img/logo.png" className='w-44' alt="" />
         </a>
 
         <nav className="hidden lg:flex space-x-8">
@@ -56,7 +56,7 @@ const Header = () => {
           className="bg-accent text-white py-2 px-5 rounded-lg font-montserrat font-medium
           hover:bg-opacity-90 transition-colors duration-300"
         >
-          Reserve Seu Pacote
+          Reserve já
         </a>
       </div>
     </header>
