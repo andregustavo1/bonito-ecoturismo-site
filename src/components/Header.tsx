@@ -1,6 +1,6 @@
+
 import { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
-import MercosulLogo from '/lovable-uploads/a255c12c-6ead-4486-bf9c-16759f36dd94.png';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -32,13 +32,9 @@ const Header = () => {
           : 'bg-transparent'
       )}
     >
-      <div className="flex justify-between items-center max-w-7xl mx-auto">
+      <div className="container mx-auto flex justify-between items-center">
         <a href="#" className="flex items-center">
-          <img 
-            src={MercosulLogo} 
-            alt="Mercosul Turismo Logo" 
-            className="h-10 mr-4"
-          />
+          <h1 className="text-white text-2xl font-bold">Mercosul Turismo</h1>
         </a>
 
         <nav className="hidden lg:flex space-x-8">
@@ -60,7 +56,7 @@ const Header = () => {
           className="bg-accent text-white py-2 px-5 rounded-lg font-montserrat font-medium
           hover:bg-opacity-90 transition-colors duration-300"
         >
-          Reserve já
+          Reserve Seu Pacote
         </a>
       </div>
     </header>
